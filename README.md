@@ -3,7 +3,7 @@
 Create beautiful (Typeform inspired) surveys using Form.io.
 Formio-survey will help you render even the most logic heavy / complex surveys.
 
-![formio-survey](https://user-images.githubusercontent.com/48744933/123226880-576f4f80-d4d4-11eb-9795-5b73368332c3.gif)
+![formio-survey](https://user-images.githubusercontent.com/48744933/123228838-10825980-d4d6-11eb-9818-5768491fd7e5.gif)
 
 ## Installation
 
