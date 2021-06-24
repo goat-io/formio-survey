@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdn.form.io/formiojs/formio.full.min.css'>
+    <script src='https://cdn.form.io/formiojs/formio.full.min.js'></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel='stylesheet' href='http://127.0.0.1:8081/src/style.css'>
+
+    <script src="http://127.0.0.1:8081/dist/index.umd.js"></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        formioSurvey.render({
+          renderElement: document.getElementById("formio"),
+          src: "https://zdzvmdwsyjiltzy.form.io/wellness",
+          animations: {
+            click: 'pulse',
+            next: 'backOutDown',
+            previous: 'backInUp'
+          }
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <div id="someContainer">
+      <div id="formio"></div>
+    </div>
+    
+  </body>
+</html>

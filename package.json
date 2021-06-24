@@ -1,0 +1,25 @@
+{
+  "name": "formio-survey",
+  "version": "1.0.1",
+  "source": "src/index.ts",
+  "description": "A Typeform inspired Formio render",
+  "exports": "./dist/index.modern.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle --css inline && cp ./src/style.css ./dist/style.css",
+    "serve": "microbundle watch --css inline",
+    "local": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "microbundle": "^0.13.3"
+  },
+  "dependencies": {
+    "formiojs": "^4.13.2"
+  }
+}
